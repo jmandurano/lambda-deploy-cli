@@ -34,5 +34,5 @@ see [sample/sample-config.json](sample/sample-config.json) for a sample configur
 install
 -------
 ```
-npm install --save-dev javascript-modules/lambda-deploy/1.0.0
+npm install --save-dev lambda-deploy
 ```
