@@ -5,6 +5,12 @@ usage
 -----
 The source must be in ./src/
 
+cli
+```
+lambda-deploy --config deploy-config.json
+```
+
+package.json
 ```json
   "scripts": {
     "deploy-test": "lambda-deploy --config deploy-config.test.json",
