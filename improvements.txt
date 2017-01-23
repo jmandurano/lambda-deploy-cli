@@ -1,0 +1,2 @@
+1.) Allow specific AWS access key in config file.
+2.) Allow src directory to be specified.

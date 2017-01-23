@@ -1,0 +1,9 @@
+{
+    "functionName": "idev-test-lambda-deploy",
+    "config": "config.test.json",
+    "outputConfig": "config.json",
+    "aws": {
+        "profile": "default",
+        "region": "us-east-1"
+    }
+}
