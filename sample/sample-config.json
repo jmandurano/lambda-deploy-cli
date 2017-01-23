@@ -1,5 +1,5 @@
 {
-    "functionName": "idev-test-lambda-deploy",
+    "functionName": "test-lambda-deploy",
     "config": "config.test.json",
     "outputConfig": "config.json",
     "aws": {

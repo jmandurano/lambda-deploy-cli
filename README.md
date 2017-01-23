@@ -1,4 +1,4 @@
-#lambda-deploy
+#lambda-deploy-cli
 A lightweight module that is configuration file based and removes as much boiler plate code as possible for deploying lambda functions to AWS.
 
 usage
@@ -7,14 +7,14 @@ The source must be in ./src/
 
 cli
 ```
-lambda-deploy --config deploy-config.json
+lambda-deploy-cli --config deploy-config.json
 ```
 
 package.json
 ```json
   "scripts": {
-    "deploy-test": "lambda-deploy --config deploy-config.test.json",
-    "deploy": "lambda-deploy --config deploy-config.json"
+    "deploy-test": "lambda-deploy-cli --config deploy-config.test.json",
+    "deploy": "lambda-deploy-cli --config deploy-config.json"
   },
 ```
 see [sample/sample-config.json](sample/sample-config.json) for a sample configuration file
@@ -34,5 +34,5 @@ see [sample/sample-config.json](sample/sample-config.json) for a sample configur
 install
 -------
 ```
-npm install --save-dev lambda-deploy
+npm install --save-dev lambda-deploy-cli
 ```
