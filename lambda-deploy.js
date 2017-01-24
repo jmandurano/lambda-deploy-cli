@@ -47,7 +47,7 @@ function promiseToBuildPayload(config) {
         archive.pipe(output);
         archive
             .directory('./src/', '/')
-            .glob('node_modules/**', { ignore: ['**/aws-sdk/**'] }, {})
+            .glob('node_modules/**', { ignore: ['**/aws-sdk/**', '**/lambda-deploy-cli/**'] }, {})
             .finalize();
     })
 };
