@@ -1,6 +1,6 @@
 {
   "name": "lambda-deploy-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight module that is configuration file based and removes as much boiler plate code as possible for deploying lambda functions to AWS.",
   "author": "Justin Mandurano <jmandurano@gmail.com> (http://justin.mandurano.com)",
   "license": "MIT",
