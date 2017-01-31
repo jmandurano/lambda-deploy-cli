@@ -99,7 +99,8 @@ function deploy(config) {
     console.log(config);
 
     aws.config.update({ region: config.aws.region });
-
+    aws.config.credentials = new aws.SharedIniFileCredentials({ profile: config.aws.profile });
+    
     promiseToBuildSettings(config)
         .then(() => {
             return promiseToBuildPayload(config)
